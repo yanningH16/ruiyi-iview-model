@@ -34,7 +34,7 @@
           <MenuItem :name="child.name"
                     class="ry-menu"
                     :key="'menuitem' + child.name">
-          <span :key="'title' + child.name">{{ $t('lang .'+item.manyLanguage) }}</span>
+          <span :key="'title' + child.name">{{ $t('lang .'+child.manyLanguage) }}</span>
           </MenuItem>
         </template>
       </Submenu>
