@@ -72,6 +72,7 @@ export const otherRouter = {
         {
             path: 'ownspace',
             title: '个人中心',
+            manyLanguage:'grzx',
             name: 'ownspace_index',
             component: () =>
                 import ('@/views/own-space/own-space.vue')
@@ -86,6 +87,7 @@ export const otherRouter = {
         {
             path: 'updata_log',
             title: '更新日志',
+            manyLanguage:'gxrz',
             name: 'updata_log',
             component: () =>
                 import ('@/views/message/updataLog.vue')
